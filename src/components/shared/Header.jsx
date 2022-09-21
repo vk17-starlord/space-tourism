@@ -21,22 +21,22 @@ function Header() {
       <div className="line sm:hidden z-80 w-full min-h-[2px]  bg-[#979797]" ></div>
       <div className="link sm:hidden px-10 backdrop-blur-xl flex  justify-center items-center bg-white/10 w-full ">
         <Link to={'/'}>
-          <SubHeading3 className={location.pathname !== '/' ? "py-8 mx-5 hover:border-b-2 border-white" : "py-5 my-3 border-b-2 border-white"}>
+          <SubHeading3 className={location.pathname !== '/' ? "py-8 mx-5 hover:border-b-2 border-white" : "py-8 my-3 border-b-2 border-white"}>
             <span className='mr-3 md:hidden'>00</span> HOME
           </SubHeading3>
         </Link>
         <Link to={'/Destination'}>
-          <SubHeading3 className={location.pathname !== '/Destination' ? "py-8 mx-5 hover:border-b-2 border-white" : "py-5 my-3 border-b-2 border-white"}>
+          <SubHeading3 className={location.pathname !== '/Destination' ? "py-8 mx-5 hover:border-b-2 border-white" : "py-8 my-3 border-b-2 border-white"}>
             <span className='mr-3 md:hidden'>01</span> DESTINATION
           </SubHeading3>
         </Link>
         <Link to={'/Crew'}>
-          <SubHeading3 className={location.pathname !== '/Crew'? "py-8 mx-5 hover:border-b-2 border-white" : "py-5 my-3 border-b-2 border-white"}>
+          <SubHeading3 className={location.pathname !== '/Crew'? "py-8 mx-5 hover:border-b-2 border-white" : "py-8 my-3 border-b-2 border-white"}>
             <span className='mr-3 md:hidden'>02</span> CREW
           </SubHeading3>
         </Link>
         <Link to={'/Technology'}>
-          <SubHeading3 className={location.pathname !== '/Technology' ? "py-8 mx-5 hover:border-b-2 border-white" : "py-5 my-3 border-b-2 border-white"}>
+          <SubHeading3 className={location.pathname !== '/Technology' ? "py-8 mx-5 hover:border-b-2 border-white" : "py-8 my-3 border-b-2 border-white"}>
             <span className='mr-3 md:hidden'>03</span> TECHNOLOGY
           </SubHeading3>
         </Link>

@@ -23,7 +23,7 @@ function Destination() {
     <div className='w-full destination-bg min-h-screen pt-[20vh]'>
         <div className="container md:flex md:flex-col mx-auto grid grid-cols-2  py-10 ">
             <div className="col md:justify-center md:items-center md:min-h-[auto] md:my-10 min-h-[80vh] flex justify-start items-start flex-col">
-            <SubHeading1 className={"text-white pt-0 "}><span className='opacity-50'>01</span> PICK YOUR DESTINATION</SubHeading1>
+            <SubHeading1 className={"text-white pt-0 "}><span className='opacity-50 mr-5'>01</span> PICK YOUR DESTINATION</SubHeading1>
                 <img className='my-10 w-[60%] object-cover' src={Destination ? Destination.images.png : ""} alt="" />
             </div>
             <div className="col flex-col min-h-[80vh] md:min-h-[auto] flex justify-start items-start">
